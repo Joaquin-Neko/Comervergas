@@ -1,10 +1,10 @@
-public class macota{
+public class Mascota{
     private int edad;
     private int estatura;
     private String nombre;
-}
 
-public macota(int edad, int estatura, String nombre){
+
+public Mascota(int edad, int estatura, String nombre){
     this.edad=edad;
     this.estatura=estatura;
     this.nombre=nombre;
@@ -36,6 +36,6 @@ public void mostrarInfo(){
         System.out.println("Informacionde de una mascota");
         System.out.println("edad: " + getEdad());
         System.out.println("estatura: " + getEstatura());
-        System.out.println("estatura: " + getNombre());
+        System.out.println("nombre: " + getNombre());
+    }
 }
-
